@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
         I am a Full Stack Web Developer specialized in Front End with React. 
         </SectionText>
-        <Button onClick={props.handleClick}>Contact</Button>
+        <Button onClick={()=> window.location = "#contact"}>Contact</Button>
       </LeftSection>
     </Section>
   </>
