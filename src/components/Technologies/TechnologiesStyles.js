@@ -80,6 +80,27 @@ export const ListTitle = styled.h4`
   margin-bottom: 4px;
 }
 `
+export const ListTitle2 = styled.h4`
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 5rem;
+  margin-top:5rem;
+
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+}
+`
 
 export const ListParagraph = styled.p`
   font-size: 18px;

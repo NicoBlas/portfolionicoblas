@@ -199,6 +199,8 @@ export const ButtonBack = styled.div`
   }
 `
 
+
+
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
@@ -209,7 +211,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(90deg, #FF8600 0%, #FF0000 100%)' : 'linear-gradient(90deg, #FF8600 0%, #FF0000 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
